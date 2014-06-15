@@ -1,0 +1,74 @@
+Functions called:
+ cos (1257 times)
+ sin (1257 times)
+ sprintf (10508 times)
+ atof (1677 times)
+ strtok (1681 times)
+ strcmp (8745 times)
+ sqrt (637740 times)
+ ceil (22906 times)
+ pow (2 times)
+ fread (2310 times)
+ fseek (221 times)
+ memmove (29055 times)
+ strlen (16772 times)
+ fclose (192 times)
+ atoi (2 times)
+ fgets (2 times)
+ memset (882 times)
+ fopen (192 times)
+ realloc (1 times)
+ memcpy (37805 times)
+ delete (27809 times)
+ delete[] (18797 times)
+ free (429 times)
+ new[] (18809 times)
+ new (27849 times)
+ calloc (5 times)
+ malloc (423 times)
+Resource types used:
+ file stream (192 allocs, 2 max)
+ file handle (192 allocs, 2 max)
+ object array (18809 allocs, 4950 max)
+ object (27849 allocs, 16389 max)
+ memory block (429 allocs, 17 max)
+Modules used:
+ 00400000 03/05/2011 21:01:24 C:\Dev\Quake2\Quake2.exe
+ 004F0000 02/01/2002 09:00:00 C:\Installs\Borland\CBUILD~1\Bin\STLP45.DLL
+ 00590000 09/28/2006 16:05:20 C:\Windows\system32\D3DX9_31.DLL
+ 0CD00000 02/01/2002 09:00:00 C:\Installs\Borland\CBUILD~1\Bin\CG32.DLL
+ 32600000 02/01/2002 09:00:00 C:\Installs\Borland\CBUILD~1\Bin\CC3260.DLL
+ 6CDD0000 07/13/2009 20:15:10 C:\Windows\system32\D3D9.DLL
+ 6D880000 07/13/2009 20:15:26 C:\Windows\system32\HID.DLL
+ 6D890000 07/13/2009 20:15:12 C:\Windows\system32\DINPUT8.DLL
+ 6DA90000 07/13/2009 20:15:10 C:\Windows\system32\d3d8thk.dll
+ 73340000 07/13/2009 20:16:12 C:\Windows\system32\ntmarta.dll
+ 73940000 07/13/2009 20:16:20 C:\Windows\system32\WINMM.DLL
+ 73B80000 07/13/2009 20:16:18 C:\Windows\system32\VERSION.dll
+ 74CB0000 07/13/2009 20:15:14 C:\Windows\system32\dwmapi.dll
+ 74CD0000 07/13/2009 20:11:26 C:\Windows\system32\uxtheme.dll
+ 751E0000 07/13/2009 20:15:08 C:\Windows\syswow64\CRYPTBASE.dll
+ 751F0000 12/11/2009 02:36:34 C:\Windows\syswow64\SspiCli.dll
+ 75250000 07/13/2009 20:16:14 C:\Windows\syswow64\ole32.dll
+ 753B0000 07/13/2009 20:16:20 C:\Windows\syswow64\WLDAP32.dll
+ 75400000 07/13/2009 20:11:24 C:\Windows\syswow64\kernel32.dll
+ 75500000 12/29/2009 01:55:36 C:\Windows\syswow64\WINTRUST.dll
+ 755B0000 07/13/2009 20:16:14 C:\Windows\SysWOW64\sechost.dll
+ 75610000 07/13/2009 20:16:16 C:\Windows\syswow64\SETUPAPI.DLL
+ 757B0000 07/13/2009 20:16:18 C:\Windows\syswow64\USP10.dll
+ 75850000 07/13/2009 20:11:24 C:\Windows\syswow64\LPK.dll
+ 75860000 08/29/2009 01:57:32 C:\Windows\syswow64\MSASN1.dll
+ 75870000 07/13/2009 20:15:04 C:\Windows\syswow64\CFGMGR32.dll
+ 758A0000 07/13/2009 20:14:54 C:\Windows\syswow64\ADVAPI32.DLL
+ 75940000 07/13/2009 20:15:08 C:\Windows\syswow64\CRYPT32.dll
+ 75A60000 07/13/2009 20:11:22 C:\Windows\syswow64\GDI32.dll
+ 75AF0000 07/13/2009 20:11:24 C:\Windows\syswow64\RPCRT4.dll
+ 75D20000 07/13/2009 20:15:12 C:\Windows\syswow64\DEVOBJ.dll
+ 75D40000 07/13/2009 20:11:22 C:\Windows\system32\IMM32.DLL
+ 75DA0000 07/13/2009 20:15:52 C:\Windows\syswow64\msvcrt.dll
+ 75F20000 07/13/2009 20:11:26 C:\Windows\syswow64\USER32.DLL
+ 76E10000 07/13/2009 20:11:24 C:\Windows\syswow64\KERNELBASE.dll
+ 76E60000 07/13/2009 20:16:14 C:\Windows\syswow64\OLEAUT32.dll
+ 76EF0000 07/13/2009 20:15:44 C:\Windows\syswow64\MSCTF.dll
+ 77680000 07/13/2009 20:17:52 C:\Windows\SysWOW64\ntdll.dll
+==========================================

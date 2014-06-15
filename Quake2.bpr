@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="Quake2.exe"/>
+    <OBJFILES value="WinMain.obj InputHandler.obj D3DContext.obj BaseGame.obj MD2.obj 
+      Texture.obj pcx.obj Material.obj Light.obj Camera.obj Shader.obj 
+      BSP\WALImage.obj BSP\BSPMap.obj BSP\D3DFace.obj BSP\Entity.obj 
+      BSP\BSPMath.obj BSP\Lump.obj BSP\FaceInfo.obj BSP\TextureInfo.obj 
+      BSP\TextureLoader.obj Engine.obj BSP\VisibilityInfo.obj BSP\BSPTree.obj 
+      BSP\LightMapInfo.obj BSP\SkyBox.obj frustum.obj Font.obj Console.obj 
+      Timer.obj DrawingInfo.obj MapSelector.obj ConsoleLine.obj RenderTarget.obj 
+      dds.obj"/>
+    <RESFILES value="Quake2.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES)"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value=""/>
+    <SPARELIBS value="rtl.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi adortl.bpi vcldb.bpi vclx.bpi bdertl.bpi 
+      vcldbx.bpi ibxpress.bpi dsnap.bpi cds.bpi bdecds.bpi qrpt.bpi teeui.bpi 
+      teedb.bpi tee.bpi dss.bpi teeqr.bpi visualclx.bpi visualdbclx.bpi 
+      dsnapcrba.bpi dsnapcon.bpi bcbsmp.bpi vclie.bpi xmlrtl.bpi inet.bpi 
+      inetdbbde.bpi inetdbxpress.bpi inetdb.bpi nmfast.bpi webdsnap.bpi 
+      bcbie.bpi websnap.bpi soaprtl.bpi dclocx.bpi dbexpress.bpi dbxcds.bpi 
+      indy.bpi bcb2kaxserver.bpi"/>
+    <PATHCPP value=".;BSP;BSP;BSP;BSP;BSP;BSP;BSP;BSP;BSP;BSP;BSP;BSP;BSP"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT;_NO_VCL;_RTLDLL;USEPACKAGES"/>
+    <MAINSOURCE value="Quake2.bpf"/>
+    <INCLUDEPATH value="..\..\TemplateTest;BSP;..\PictureShader;C:\Dev\DirectX\Quake2;..\BeesGame;C:\Installs\Borland\CBuilder6\Projects;C:\Dev\SDL\Programs\TrafficGame;C:\Dev\SDL\Programs\SDLdisplay;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="..\..\TemplateTest;BSP;..\PictureShader;C:\Dev\DirectX\Quake2;..\BeesGame;C:\Installs\Borland\CBuilder6\Projects;C:\Dev\SDL\Programs\TrafficGame;C:\Dev\SDL\Programs\SDLdisplay;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I..\..\TemplateTest -IBSP -I..\PictureShader -IC:\Dev\DirectX\Quake2 
+      -I..\BeesGame -IC:\Installs\Borland\CBuilder6\Projects 
+      -IC:\Dev\SDL\Programs\TrafficGame -IC:\Dev\SDL\Programs\SDLdisplay 
+      -I$(BCB)\include -I$(BCB)\include\vcl -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -w -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- 
+      -tW -tWM- -c"/>
+    <PFLAGS value="-$Y+ -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj $(PACKAGES) $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cw32i.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="Quake2.res" FORMNAME="" UNITNAME="Quake2.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Quake2.bpf" FORMNAME="" UNITNAME="Quake2" CONTAINERID="BPF" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="WinMain.cpp" FORMNAME="" UNITNAME="WinMain" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="InputHandler.cpp" FORMNAME="" UNITNAME="InputHandler" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="D3DContext.cpp" FORMNAME="" UNITNAME="D3DContext" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BaseGame.cpp" FORMNAME="" UNITNAME="BaseGame" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MD2.cpp" FORMNAME="" UNITNAME="MD2" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Texture.cpp" FORMNAME="" UNITNAME="Texture" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="pcx.cpp" FORMNAME="" UNITNAME="pcx" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Material.cpp" FORMNAME="" UNITNAME="Material" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Light.cpp" FORMNAME="" UNITNAME="Light" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Camera.cpp" FORMNAME="" UNITNAME="Camera" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Shader.cpp" FORMNAME="" UNITNAME="Shader" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BSP\WALImage.cpp" FORMNAME="" UNITNAME="WALImage" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BSP\BSPMap.cpp" FORMNAME="" UNITNAME="BSPMap" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BSP\D3DFace.cpp" FORMNAME="" UNITNAME="D3DFace" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BSP\Entity.cpp" FORMNAME="" UNITNAME="Entity" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BSP\BSPMath.cpp" FORMNAME="" UNITNAME="BSPMath" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BSP\Lump.cpp" FORMNAME="" UNITNAME="Lump" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BSP\FaceInfo.cpp" FORMNAME="" UNITNAME="FaceInfo" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BSP\TextureInfo.cpp" FORMNAME="" UNITNAME="TextureInfo" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BSP\TextureLoader.cpp" FORMNAME="" UNITNAME="TextureLoader" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Engine.cpp" FORMNAME="" UNITNAME="Engine" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BSP\VisibilityInfo.cpp" FORMNAME="" UNITNAME="VisibilityInfo" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BSP\BSPTree.cpp" FORMNAME="" UNITNAME="BSPTree" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BSP\LightMapInfo.cpp" FORMNAME="" UNITNAME="LightMapInfo" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BSP\SkyBox.cpp" FORMNAME="" UNITNAME="SkyBox" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="frustum.cpp" FORMNAME="" UNITNAME="frustum" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Font.cpp" FORMNAME="" UNITNAME="Font" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Console.cpp" FORMNAME="" UNITNAME="Console" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Timer.cpp" FORMNAME="" UNITNAME="Timer" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DrawingInfo.cpp" FORMNAME="" UNITNAME="DrawingInfo" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MapSelector.cpp" FORMNAME="" UNITNAME="MapSelector" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ConsoleLine.cpp" FORMNAME="" UNITNAME="ConsoleLine" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RenderTarget.cpp" FORMNAME="" UNITNAME="RenderTarget" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="dds.cpp" FORMNAME="" UNITNAME="dds" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1033
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Excluded Packages]
+c:\installs\borland\cbuilder6\Bin\dclite60.bpl=Borland Integrated Translation Environment
+
+[HistoryLists\hlIncludePath]
+Count=7
+Item0=..\..\TemplateTest;BSP;..\PictureShader;C:\Dev\DirectX\Quake2;..\BeesGame;C:\Installs\Borland\CBuilder6\Projects;C:\Dev\SDL\Programs\TrafficGame;C:\Dev\SDL\Programs\SDLdisplay;$(BCB)\include;$(BCB)\include\vcl
+Item1=BSP;..\PictureShader;C:\Dev\DirectX\Quake2;..\BeesGame;C:\Installs\Borland\CBuilder6\Projects;C:\Dev\SDL\Programs\TrafficGame;C:\Dev\SDL\Programs\SDLdisplay;$(BCB)\include;$(BCB)\include\vcl
+Item2=..\PictureShader;C:\Dev\DirectX\Quake2;..\BeesGame;C:\Installs\Borland\CBuilder6\Projects;C:\Dev\SDL\Programs\TrafficGame;C:\Dev\SDL\Programs\SDLdisplay;$(BCB)\include;$(BCB)\include\vcl
+Item3=C:\Dev\DirectX\Quake2;..\BeesGame;C:\Installs\Borland\CBuilder6\Projects;C:\Dev\SDL\Programs\TrafficGame;C:\Dev\SDL\Programs\SDLdisplay;$(BCB)\include;$(BCB)\include\vcl
+Item4=..\BeesGame;C:\Installs\Borland\CBuilder6\Projects;C:\Dev\SDL\Programs\TrafficGame;C:\Dev\SDL\Programs\SDLdisplay;$(BCB)\include;$(BCB)\include\vcl
+Item5=C:\Installs\Borland\CBuilder6\Projects;C:\Dev\SDL\Programs\TrafficGame;C:\Dev\SDL\Programs\SDLdisplay;$(BCB)\include;$(BCB)\include\vcl
+Item6=C:\Dev\SDL\Programs\SDLdisplay;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=7
+Item0=..\..\TemplateTest;BSP;..\PictureShader;C:\Dev\DirectX\Quake2;..\BeesGame;C:\Installs\Borland\CBuilder6\Projects;C:\Dev\SDL\Programs\TrafficGame;C:\Dev\SDL\Programs\SDLdisplay;$(BCB)\lib\obj;$(BCB)\lib
+Item1=BSP;..\PictureShader;C:\Dev\DirectX\Quake2;..\BeesGame;C:\Installs\Borland\CBuilder6\Projects;C:\Dev\SDL\Programs\TrafficGame;C:\Dev\SDL\Programs\SDLdisplay;$(BCB)\lib\obj;$(BCB)\lib
+Item2=..\PictureShader;C:\Dev\DirectX\Quake2;..\BeesGame;C:\Installs\Borland\CBuilder6\Projects;C:\Dev\SDL\Programs\TrafficGame;C:\Dev\SDL\Programs\SDLdisplay;$(BCB)\lib\obj;$(BCB)\lib
+Item3=C:\Dev\DirectX\Quake2;..\BeesGame;C:\Installs\Borland\CBuilder6\Projects;C:\Dev\SDL\Programs\TrafficGame;C:\Dev\SDL\Programs\SDLdisplay;$(BCB)\lib\obj;$(BCB)\lib
+Item4=..\BeesGame;C:\Installs\Borland\CBuilder6\Projects;C:\Dev\SDL\Programs\TrafficGame;C:\Dev\SDL\Programs\SDLdisplay;$(BCB)\lib\obj;$(BCB)\lib
+Item5=C:\Installs\Borland\CBuilder6\Projects;C:\Dev\SDL\Programs\TrafficGame;C:\Dev\SDL\Programs\SDLdisplay;$(BCB)\lib\obj;$(BCB)\lib
+Item6=C:\Dev\SDL\Programs\SDLdisplay;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=2
+Item0=_DEBUG
+Item1=_DEBUG;__USING_CNAME__;__NDS__;_SIZE_T_DEFINED;
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+  </IDEOPTIONS>
+</PROJECT>
