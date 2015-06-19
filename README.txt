@@ -1,5 +1,5 @@
 Notes:
-	- All files in the Q2 subdirectory of this project are property of Id Software
+	- The materials (e.g., maps and textures) from Quake II need to be unpacked and placed in a Q2/ subdirectory before this application can be run.
 	- The program can get slow when you move outside of the map (because it disables BSP culling).
 	  For best results, try staying within the map.
 
